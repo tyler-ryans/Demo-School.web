@@ -30,7 +30,7 @@ function AddNewStudent() {
             setMessage("");
 
             const response = await axios.post(
-                "http://localhost:9000/student/add-new-student",
+                "https://demo-school-web-backend.onrender.com/student/add-new-student",
                 formValue,
                 {
                     headers: {

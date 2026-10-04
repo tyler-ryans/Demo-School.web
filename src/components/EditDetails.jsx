@@ -31,7 +31,7 @@ const EditDetails = () => {
             setMessage("");
 
             const response = await axios.post(
-                `http://localhost:9000/student/edit-student/${id}`,
+                `https://demo-school-web-backend.onrender.com/student/edit-student/${id}`,
                 formValue,
                 {
                     headers: {

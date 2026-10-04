@@ -38,7 +38,7 @@ function Dashboard() {
 
         try {
             await axios.delete(
-                `http://localhost:9000/student/delete-student/${id}`
+                `https://demo-school-web-backend.onrender.com/student/delete-student/${id}`
             );
 
             // Remove deleted student without reloading the page
