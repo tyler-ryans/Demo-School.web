@@ -10,7 +10,7 @@ function Dashboard() {
         async function fetchApi() {
             try {
                 const { data } = await axios.get(
-                    "http://localhost:9000/student/all-students",
+                    "https://demo-school-web-backend.onrender.com/student/all-students",
                     {
                         headers: {
                             "Content-Type": "application/json",
